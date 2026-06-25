@@ -8,23 +8,23 @@ It provides structured workout plans, Indian diet suggestions, and downloadable 
 
 ## 🚀 Features
 
-- AI-based personalized fitness plans  
-- Workout recommendations based on goals  
-- Indian diet planning  
-- Budget-friendly food suggestions  
-- Daily calorie estimation  
-- PDF report generation  
-- Simple Streamlit UI  
+* AI-based personalized fitness plans
+* Workout recommendations based on goals
+* Indian diet planning
+* Budget-friendly food suggestions
+* Daily calorie estimation
+* PDF report generation
+* Simple Streamlit UI
 
 ---
 
 ## 🧠 Tech Stack
 
-- Python  
-- Streamlit  
-- Google Gemini AI  
-- ReportLab  
-- python-dotenv  
+* Python
+* Streamlit
+* Google Gemini AI
+* ReportLab
+* python-dotenv
 
 ---
 
@@ -32,13 +32,14 @@ It provides structured workout plans, Indian diet suggestions, and downloadable 
 
 FitFusion-AI/
 
-├── app.py  
-├── requirements.txt  
-├── README.md  
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env.example
 
-└── utils/  
-    ├── ai_engine.py  
-    └── pdf_generator.py  
+└── utils/
+    ├── ai_engine.py
+    └── pdf_generator.py
 
 ---
 
@@ -46,40 +47,43 @@ FitFusion-AI/
 
 Install dependencies:
 
-pip install -r requirements.txt  
+pip install -r requirements.txt
 
-Create `.env` file:
+Create a `.env` file in the project root directory and add your Gemini API key:
 
-GEMINI_API_KEY=YOUR_API_KEY_HERE  
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+
+A sample `.env.example` file is included in this repository for reference.
 
 Run the app:
 
-streamlit run app.py  
+streamlit run app.py
 
 ---
 
 ## 🧩 How It Works
 
-- User enters fitness details  
-- Data sent to Gemini AI  
-- AI generates plan  
-- Plan shown in UI  
-- PDF report generated  
+* User enters fitness details
+* Data sent to Gemini AI
+* AI generates plan
+* Plan shown in UI
+* PDF report generated
 
 ---
 
 ## 📌 Notes
 
-- `.env` file is NOT uploaded to GitHub  
-- `venv` folder is ignored  
-- Only required project files are pushed  
-- Project uploaded using manual drag & drop method  
+* `.env.example` is provided as a template for environment configuration
+* The actual `.env` file is NOT uploaded because it contains sensitive API keys
+* `venv` folder is excluded from the repository
+* Only required project files are uploaded
+* Project uploaded using manual GitHub drag & drop method
 
 ---
 
 ## 👨‍💻 Author
 
-Rakshita Saxena  
+Rakshita Saxena
 
 ---
 
